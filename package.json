@@ -1,11 +1,11 @@
 {
   "name": "bdtable",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "用友高校table",
   "main": "src/components/index.js",
   "repository": {
     "type": "git",
-    "url":"git+https://github.com/wangxueshun/bdTable"
+    "url": "git+https://github.com/wangxueshun/bdTable"
   },
   "keywords": [
     "bdTable"
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "core-js": "^3.4.4",
+    "element-ui": "^2.13.0",
     "vue": "^2.6.10",
     "vxe-table": "^2.6.22",
     "xe-utils": "^2.2.15"
