@@ -531,7 +531,7 @@ export default {
             }
             if (!this.pager && columnIndex === 1) {
               return "共" + data.length + "行";
-            }\
+            }
             if (this.calculateColumns.includes(column.property)) {
               return XEUtils.commafy(XEUtils.sum(data, column.property), {
                 fixed: 2
